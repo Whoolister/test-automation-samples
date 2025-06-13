@@ -1,0 +1,25 @@
+[versions]
+junit = "5.11.3"
+kotlin = "2.1.20"
+jakarta-validation-api = "3.0.2"
+kermit = "2.0.4"
+kotest = "6.0.0.M4"
+rest-assured = "5.5.5"
+jackson = "2.19.0"
+
+[libraries]
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
+junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
+jakarta-validation-api = { module = "jakarta.validation:jakarta.validation-api", version.ref = "jakarta-validation-api" }
+kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+rest-assured = { module = "io.rest-assured:rest-assured", version.ref = "rest-assured" }
+rest-assured-kotlin = { module = "io.rest-assured:kotlin-extensions", version.ref = "rest-assured" }
+jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
+jackson-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+jackson-date = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "jackson" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
