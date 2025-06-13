@@ -1,0 +1,21 @@
+[versions]
+junit = "5.11.3"
+selenium = "4.33.0"
+kotlin = "2.1.20"
+jakarta-validation-api = "3.0.2"
+kermit = "2.0.4"
+kotest = "6.0.0.M4"
+
+[libraries]
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
+junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
+selenium-api = { module = "org.seleniumhq.selenium:selenium-api", version.ref = "selenium" }
+selenium-java = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "selenium" }
+selenium-support = { module = "org.seleniumhq.selenium:selenium-support", version.ref = "selenium" }
+selenium-firefox-driver = { module = "org.seleniumhq.selenium:selenium-firefox-driver", version.ref = "selenium" }
+jakarta-validation-api = { module = "jakarta.validation:jakarta.validation-api", version.ref = "jakarta-validation-api" }
+kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
